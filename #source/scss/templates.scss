@@ -1,0 +1,61 @@
+@mixin flexcont($display, $flex-direction, $flex-wrap, $justify-content, $align-items) {
+    display: $display;
+    flex-direction: $flex-direction;
+    flex-wrap: $flex-wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+%button {
+    display: inline-block;
+    background: #6DD0FE;
+    border-radius: 18px;
+    padding: 18px 35px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #391145;
+
+    &:hover {
+        background: #E9DCD6;
+    }
+}
+
+%h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: #391145;
+}
+
+%h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    color: #391145;
+    text-decoration: underline #FFBCFF 16px;
+}
+
+%h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #391145;
+}
+
+%h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #391145;
+}
